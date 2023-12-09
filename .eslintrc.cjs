@@ -8,7 +8,7 @@ module.exports = {
     'plugin:prettier/recommended', 
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
-  plugins: ['@typescript-eslint', 'prettier'],
+  plugins: ['@typescript-eslint', 'prettier', '@emotion'],
   rules: {
     '@typescript-eslint/no-unused-vars': 'warn',
   },

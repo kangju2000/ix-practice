@@ -1,9 +1,15 @@
-import './App.css';
+import { css } from '@emotion/react';
 
 function App() {
-  const a = 1;
-
-  return <div>하이</div>;
+  return (
+    <div
+      css={css`
+        background-color: red;
+      `}
+    >
+      하이
+    </div>
+  );
 }
 
 export default App;
